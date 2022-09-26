@@ -44,13 +44,13 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@Harrynoqs](https://github.com/githubhandle)
 - Twitter: [@noqsnoq1](https://twitter.com/twitterhandle)
-- LinkedIn: [Harrisonnjuguna](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: (https://www.linkedin.com/in/harrison-njuguna-59536314/)
 
 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn]()
 
 ## 🤝 Contributing
 
