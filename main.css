@@ -9,5 +9,31 @@ body {
     justify-content: center;
     align-items: center;
     /* text-align: center; */
-   margin: 200px 500px;
+   /* margin: 200px 500px; */
+}
+
+form {
+    width: 50%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+  }
+
+
+.book-add {
+    width: 30%;
+    cursor: pointer;
+  }
+
+button {
+    cursor: pointer;
+  }
+
+
+.form_container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
