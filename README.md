@@ -44,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@Harrynoqs](https://github.com/githubhandle)
 - Twitter: [@noqsnoq1](https://twitter.com/twitterhandle)
-- LinkedIn: https://www.linkedin.com/in/harrison-njuguna)
+- LinkedIn: (https://www.linkedin.com/in/harrison-njuguna-59536314/)
 
 👤 **Author2**
 
