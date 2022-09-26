@@ -42,9 +42,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Harrynoqs](https://github.com/githubhandle)
+- Twitter: [@noqsnoq1](https://twitter.com/twitterhandle)
+- LinkedIn: [Harrisonnjuguna](https://linkedin.com/in/linkedinhandle)
 
 👤 **Author2**
 
