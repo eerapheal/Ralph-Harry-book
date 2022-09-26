@@ -52,7 +52,7 @@ class bookLibrary {
     this.books.forEach((book, index) => {
       const h3 = document.createElement('h3');
       const authorNames = document.createElement('p');
-          
+
       const removeBtn = document.createElement('button');
       h3.textContent = `Book: ${book.title} `;
       authorNames.textContent = `Author: ${book.author}`;
