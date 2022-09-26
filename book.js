@@ -3,7 +3,7 @@ const bookTitle = document.getElementById('title');
 const bookAuthor = document.getElementById('author');
 const bookAdd = document.getElementById('book-add');
 
-class bookLibrary {
+class Booklibrary {
   constructor() {
     this.books = [
       {
@@ -16,7 +16,7 @@ class bookLibrary {
       },
     ];
   }
-    // add books
+  // add books
 
   addBook(title, author) {
     this.books.push({
@@ -34,7 +34,7 @@ class bookLibrary {
     this.books.splice(index, 1);
     this.setLocalStorage();
     this.displayBooks();
-  }  
+  }
 
   setLocalStorage() {
     localStorage.setItem('localLibraries', JSON.stringify(this.books));
@@ -66,7 +66,7 @@ class bookLibrary {
     });
   }
 }
-const allLibrary = new bookLibrary();
+const allLibrary = new Booklibrary();
 bookAdd.addEventListener('click', (e) => {
   e.preventDefault();
   allLibrary.addBook(bookTitle.value, bookAuthor.value);
