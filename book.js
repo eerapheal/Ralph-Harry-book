@@ -56,14 +56,11 @@ class Booklibrary {
       const authorNames = document.createElement('p');
       const bookNames = document.createElement('p');
       const removeBtn = document.createElement('button');
-      // const line  = document.createElement('div'); 
       bookNames.textContent = ` "${book.title}" by ${book.author}`;
       
       removeBtn.textContent = 'remove';
       removeBtn.classList.add('remove');
-      // line.classList.add('line');
       h3.append(authorNames, bookNames, removeBtn,);
-      // h3.appendChild(line);
       removeBtn.addEventListener('click', () => {
         this.removeBook(index);
       });
