@@ -51,6 +51,7 @@ p {
   justify-content: space-between;
   align-items: center;
  flex-direction: row;
+ padding: 0 5px;
 }
 
 .books-btn-div {
@@ -89,3 +90,7 @@ p {
   border: 1px solid  rgb(66, 65, 65);
   width: 350px;
  }
+
+ .book-div:nth-child(odd) {
+  background-color: lightgrey;
+}
