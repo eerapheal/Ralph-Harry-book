@@ -12,8 +12,9 @@ form {
 }
 
 .book-add {
-  width: 30%;
   cursor: pointer;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 button {
@@ -23,7 +24,7 @@ button {
 .heading_container {
   display: flex;
   justify-content: start;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   margin: 0 auto;
   padding: 20px;
@@ -35,7 +36,7 @@ button {
 .form_container {
   display: flex;
   justify-content: start;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   margin: 0 auto;
   padding: 20px;
@@ -43,7 +44,32 @@ button {
   height: auto;
 }
 
-h3,
+.book-div,
 p {
   font-size: 1rem;
 }
+
+.book-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  /* border: 2px solid red; */
+}
+
+.books-btn-div {
+  text-align: end;
+  margin-right: 9%;
+}
+ .input {
+text-align: center;
+ }
+
+ #title {
+   width: 230px;
+   margin-bottom: 8px;
+ }
+
+ #author {
+  width: 230px;
+ }
