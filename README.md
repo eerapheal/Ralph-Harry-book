@@ -1,15 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+Awesome Books
 
 > Description the project.
+Basic website that allows users to add/remove books from a list.
 
 
 ## Built With
 
 - Major languages
-- Frameworks
+HTML, JAVASCRIPTS.
 - Technologies used
+GitHub, vscode
 
 ## Live Demo (if available)
 
@@ -18,16 +21,14 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple example steps:
 
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
 ### Setup
-
+Clone this repo with:
+cd Ralph-Harry-book
 ### Install
 
 ### Usage
@@ -42,15 +43,16 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Harrynoqs](https://github.com/githubhandle)
+- Twitter: [@noqsnoq1](https://twitter.com/twitterhandle)
+- LinkedIn: (https://www.linkedin.com/in/harrison-njuguna-59536314/)
 
 👤 **Author2**
+ Ekpenisi Erue Raphael.
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: (https://github.com/eerapheal) 
+- Twitter: (https://twitter.com/ ekpenisiraphael) 
+- LinkedIn: (https://www.linkedin.com/in/ekpenisi-e-raphael-9678a221a/)
 
 ## 🤝 Contributing
 

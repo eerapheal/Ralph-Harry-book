@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+  width: 50%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-add {
+  width: 30%;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.heading_container {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 5%;
+  width: 600px;
+  height: auto;
+}
+
+.form_container {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  width: 600px;
+  height: auto;
+}
+
+h3,
+p {
+  font-size: 1rem;
+}
