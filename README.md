@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-Awesome Books
+Awesome books: Refactor to use JavaScript classes
 
 > Description the project.
-Basic website that allows users to add/remove books from a list.
+In this project, we refactored the Awesome books application to use JavaScript classes.
 
 
 ## Built With
