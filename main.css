@@ -23,7 +23,7 @@ button {
 
 .heading_container {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
@@ -53,6 +53,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   gap: 30px;
   /* border: 2px solid red; */
 }
@@ -72,4 +73,13 @@ text-align: center;
 
  #author {
   width: 230px;
+ }
+
+ .line {
+  border: 1px solid #313030;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 1px;
+  width: 20px;
  }
