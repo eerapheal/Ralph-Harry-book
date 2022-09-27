@@ -52,7 +52,6 @@ class Booklibrary {
     this.books.forEach((book, index) => {
       const h3 = document.createElement('div');
     h3.classList.add('book-div');
-    const bookDiv = document.getElementById('book-form');
       const bookNames = document.createElement('p');
       const removeBtn = document.createElement('button');
       bookNames.textContent = ` "${book.title}" by ${book.author}`;
