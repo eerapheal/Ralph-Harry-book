@@ -57,8 +57,8 @@ class Booklibrary {
       const bookNames = document.createElement('p');
       const removeBtn = document.createElement('button');
       // const line  = document.createElement('div'); 
-      bookNames.textContent = ` ${book.title} `;
-      authorNames.textContent = ` ${book.author}`;
+      bookNames.textContent = ` "${book.title}" by ${book.author}`;
+      
       removeBtn.textContent = 'remove';
       removeBtn.classList.add('remove');
       // line.classList.add('line');
