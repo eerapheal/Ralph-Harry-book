@@ -27,15 +27,12 @@ button {
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  padding: 20px;
-  margin-top: 5%;
+  margin-top: 55px;
   width: 600px;
-  height: auto;
 }
 
 .form_container {
   display: flex;
-  justify-content: start;
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
@@ -51,11 +48,9 @@ p {
 
 .book-div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
  flex-direction: row;
-  /* gap: 30px; */
-  /* border: 2px solid red; */
 }
 
 .books-btn-div {
@@ -63,7 +58,8 @@ p {
   margin-right: 9%;
 }
  .input {
-text-align: center;
+  text-align: center;
+  margin-top: 5px;
  }
 
  #title {
@@ -81,7 +77,12 @@ text-align: center;
   justify-content: center;
   align-items: center;
   height: 1px;
-  width: 20px;
+  width: 55px;
+  margin-top: -5px;
+ }
+
+ .awesome {
+  margin-bottom: 10px;
  }
 
  .book-list {
