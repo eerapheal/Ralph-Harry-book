@@ -50,29 +50,30 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
- flex-direction: row;
- padding: 0 5px;
+  flex-direction: row;
+  padding: 2px 10px;
 }
 
 .books-btn-div {
   text-align: end;
   margin-right: 9%;
 }
- .input {
+
+.input {
   text-align: center;
   margin-top: 5px;
- }
+}
 
- #title {
-   width: 230px;
-   margin-bottom: 8px;
- }
-
- #author {
+#title {
   width: 230px;
- }
+  margin-bottom: 8px;
+}
 
- .line {
+#author {
+  width: 230px;
+}
+
+.line {
   border: 1px solid #313030;
   display: block;
   justify-content: center;
@@ -80,17 +81,17 @@ p {
   height: 1px;
   width: 55px;
   margin-top: -5px;
- }
+}
 
- .awesome {
+.awesome {
   margin-bottom: 10px;
- }
+}
 
- .book-list {
+.book-list {
   border: 1px solid  rgb(66, 65, 65);
   width: 350px;
- }
+}
 
- .book-div:nth-child(odd) {
+.book-div:nth-child(odd) {
   background-color: lightgrey;
 }

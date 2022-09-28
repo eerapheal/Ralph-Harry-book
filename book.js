@@ -51,14 +51,14 @@ class Booklibrary {
     bookList.innerHTML = '';
     this.books.forEach((book, index) => {
       const h3 = document.createElement('div');
-    h3.classList.add('book-div');
+      h3.classList.add('book-div');
       const bookNames = document.createElement('p');
       const removeBtn = document.createElement('button');
       bookNames.textContent = ` "${book.title}" by ${book.author}`;
-      
+
       removeBtn.textContent = 'remove';
       removeBtn.classList.add('remove');
-      h3.append(bookNames, removeBtn,);
+      h3.append(bookNames, removeBtn);
       removeBtn.addEventListener('click', () => {
         this.removeBook(index);
       });
