@@ -50,15 +50,15 @@ class Booklibrary {
   displayBooks() {
     bookList.innerHTML = '';
     this.books.forEach((book, index) => {
-      const h3 = document.createElement('h3');
-      const authorNames = document.createElement('p');
-
+      const h3 = document.createElement('div');
+      h3.classList.add('book-div');
+      const bookNames = document.createElement('p');
       const removeBtn = document.createElement('button');
-      h3.textContent = `Book: ${book.title} `;
-      authorNames.textContent = `Author: ${book.author}`;
+      bookNames.textContent = ` "${book.title}" by ${book.author}`;
+
       removeBtn.textContent = 'remove';
       removeBtn.classList.add('remove');
-      h3.append(authorNames, removeBtn);
+      h3.append(bookNames, removeBtn);
       removeBtn.addEventListener('click', () => {
         this.removeBook(index);
       });
