@@ -6,6 +6,51 @@
   text-decoration: none;
 }
 
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #313030;
+  padding: 2px;
+  
+}
+
+#time {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.nav-link {
+  color:  #313030;
+  gap: 15px;
+}
+
+.logo {
+  color: #313030;
+}
+
+#dateTime {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.foota {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #313030;
+}
+
+.contactpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
 form {
   width: 50%;
   gap: 10px;
@@ -77,7 +122,7 @@ p {
 
 .line {
   border: 1px solid #313030;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 1px;

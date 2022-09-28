@@ -10,23 +10,33 @@
 <body>
   <header>
     <nav>
-      <div>
-       <a href="#">Awesome Books</a>
+      <div id="itemsDiv" class="nav-items">
+       <a class="logo" href="#">Awesome Books</a>
        <div>
-        <a href="#">Lists</a>
-        <a href="#">Add New</a>
-        <a href="#">Contact</a>
+        <a class="nav-link" aria-current="page"
+        data-trigger="contact" href="#">Lists |
+        </a>
+        <a class="nav-link" aria-current="page"
+        data-trigger="contact" href="#">Add New |
+        </a>
+        <a class="nav-link" aria-current="page"
+        data-trigger="contact" href="#">Contact
+        </a>
        </div>
       </div>
-
+      <div id="dateTime">
+      <span class="date"></span>
+      <span class="time"></span>
+    </div>
     </nav>
   </header>
+  <main>
   <section class="heading_container">
         <h1 class="awesome">Awesome Books</h1>
         <div class="book-list" id="book-list"></div>
   </section>
   <section class="form_container">
-        <div class ="line"></div>
+        <!-- <div class ="line"></div> -->
         <h2>Add a new book</h2>
         <form id="book-form" class="book-form">
             <div class="input">
@@ -38,6 +48,34 @@
             </div>
         </form>         
     </section>
+    <section class="contactpage">
+      <div>
+        <h2>Contact information</h2>
+        <div>
+          <p>
+            Do you have any questions or you just want to say "Hello"? <br />
+            You can reach out to us!
+          </p>
+          <ul>
+            <li>Our e-mail: harry-ralph@mail.com</li>
+            <li>Our phone number: +9175857587</li>
+            <li>Our address: Streetname 22, 84503 Kenya, Country</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="foota">
+    <div>
+      <span>Copyright ©️ 2022</span>
+      <span>&</span>
+      <span>
+        <a href="#">HARRY/RALPH</a>
+      </span>
+    </div>
+  </footer>
     <script src="/book.js"></script>    
 </body>
 </html>
