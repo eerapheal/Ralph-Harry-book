@@ -32,7 +32,7 @@ header nav .tabs .tab a[data-switcher] {
   padding: 15px;
   cursor: pointer;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 30px;
 }
 
@@ -62,7 +62,7 @@ header nav .tabs .tab a[data-switcher] {
 
 .logo {
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 30px;
 }
 
@@ -71,7 +71,7 @@ header nav .tabs .tab a[data-switcher] {
   justify-content: flex-end;
   align-items: center;
   color: rgb(250, 6, 6);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   padding: 15px;
 }
@@ -84,7 +84,7 @@ header nav .tabs .tab a[data-switcher] {
   width: 80vw;
   margin-top: 90px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 30px;
   background-color: #5f4ab6;
   padding: 15px;
@@ -109,7 +109,7 @@ form {
   cursor: pointer;
   color: #f5f4fa;
   padding: 4px 10px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   background-color: #5f4ab6;
 }
@@ -130,14 +130,14 @@ button {
 
 .contactMe {
   padding: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 30px;
   color: #bd0863;
 }
 
 .contactP {
   padding: 10px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   color: #3b1729;
 }
@@ -176,14 +176,14 @@ p {
 .remove {
   color: #f5f4fa;
   padding: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   background-color: #5f4ab6;
 }
 
 .addNew {
   color: rgb(78, 7, 7);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 30px;
 }
 
@@ -211,7 +211,7 @@ p {
 .awesome {
   margin-bottom: 10px;
   color: rgb(78, 7, 7);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 30px;
 }
 
@@ -219,7 +219,7 @@ p {
   border: 1px solid  rgb(66, 65, 65);
   width: 350px;
   color: rgb(78, 7, 7);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
 }
 
