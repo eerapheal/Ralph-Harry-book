@@ -56,7 +56,7 @@ class Booklibrary {
       const removeBtn = document.createElement('button');
       bookNames.textContent = ` "${book.title}" by ${book.author}`;
 
-      removeBtn.textContent = 'remove';
+      removeBtn.textContent = 'Remove';
       removeBtn.classList.add('remove');
       h3.append(bookNames, removeBtn);
       removeBtn.addEventListener('click', () => {
