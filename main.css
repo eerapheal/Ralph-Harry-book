@@ -63,8 +63,7 @@ header nav .tabs .tab a[data-switcher] {
 .logo {
   color: #fff;
   font-weight: 500;
-  font-size: 30px;
-  
+  font-size: 30px; 
 }
 
 #dateTime {
@@ -72,10 +71,9 @@ header nav .tabs .tab a[data-switcher] {
   justify-content: flex-end;
   align-items: center;
   color: rgb(250, 6, 6);
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   padding: 15px;
-
 }
 
 .foota {
@@ -139,7 +137,7 @@ button {
 
 .contactP {
   padding: 10px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 20px;
   color: #3b1729;
 }
@@ -152,7 +150,6 @@ button {
   padding: 80px;
   height: auto;
 }
-
 
 .book-div,
 p {
@@ -186,7 +183,7 @@ p {
 
 .addNew {
   color: rgb(78, 7, 7);
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 30px;
 }
 
