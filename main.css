@@ -70,7 +70,7 @@ header nav .tabs .tab a[data-switcher] {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: rgb(250, 6, 6);
+  color: #af0808;
   font-weight: 600;
   font-size: 16px;
   padding: 15px;
@@ -225,4 +225,23 @@ p {
 
 .book-div:nth-child(odd) {
   background-color: lightgrey;
+}
+
+.logo:hover {
+  color: #af0808;
+}
+
+header nav .tabs .tab a[data-switcher]:hover {
+  background-color: #af0808;
+  color: rgb(23, 8, 151);
+}
+
+.book-add:hover {
+  background-color: #af0808;
+  color: rgb(23, 8, 151);
+}
+
+.remove:hover {
+  background-color: #af0808;
+  color: rgb(23, 8, 151);
 }
