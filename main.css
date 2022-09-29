@@ -6,13 +6,34 @@
   text-decoration: none;
 }
 
+body {
+  height: 100vh;
+}
+
 .nav-items {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 2px solid #313030;
   padding: 2px;
-  
+}
+
+header nav .tabs .tab a[data-switcher] {
+  display: block;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+}
+
+.pages .page {
+  display: none;
+}
+
+.pages .page.is-active {
+  display: block;
 }
 
 #time {
@@ -23,7 +44,7 @@
 }
 
 .nav-link {
-  color:  #313030;
+  color: #313030;
   gap: 15px;
 }
 
