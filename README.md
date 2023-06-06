@@ -16,7 +16,7 @@ GitHub, vscode
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com](https://eerapheal.github.io/awesomebook-ES6/)
+[Live Demo Link](https://eerapheal.github.io/awesomebook-ES6/)
 
 
 ## Getting Started
